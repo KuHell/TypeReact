@@ -5,8 +5,8 @@ function App() {
   return (
     <div className="App">
       <>
-      <button onClick={() => {axios.post('http://13.124.40.95:7272/createuserWallet/', {userID: 1})
-          .then((result) => {console.log(result)}
+      <button onClick={() => {axios.post('http://15.165.158.22:7272/teeeeest', {userID: '1'})
+          .then((result) => {console.log(result.data)}
           ).catch((err) => {console.log(err)})}}>POST</button>
       </>
     </div>
